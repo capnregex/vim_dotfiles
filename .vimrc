@@ -15,11 +15,15 @@ runtime! debian.vim
 " options, so any other options should be set AFTER setting 'compatible'.
 "set compatible
 
+execute pathogen#infect()
+
 " Vim5 and later versions support syntax highlighting. Uncommenting the
 " following enables syntax highlighting by default.
 if has("syntax")
   syntax on
 endif
+
+filetype plugin indent on
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
