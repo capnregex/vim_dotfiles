@@ -1,15 +1,3 @@
-" An example for a gvimrc file.
-" The commands in this are executed when the GUI is started.
-"
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last change:	2001 Sep 02
-"
-" To use it, copy it to
-"     for Unix and OS/2:  ~/.gvimrc
-"	      for Amiga:  s:.gvimrc
-"  for MS-DOS and Win32:  $VIM\_gvimrc
-"	    for OpenVMS:  sys$login:.gvimrc
-
 " Make external commands work through a pipe instead of a pseudo-tty
 "set noguipty
 
@@ -18,16 +6,28 @@
 " set guifont=DejaVu\ Sans\ Mono\ 14
 " set guifont=Liberation\ Mono\ 14
 set guifont=Ubuntu\ Mono\ 14
-
 set ch=2		" Make command line two lines high
-
 set mousehide		" Hide the mouse when typing text
-
 set expandtab
 set shiftwidth=2
 set softtabstop=2
 set autoindent
 set smartindent
+
+" Common application keybindings
+if has("clipboard")
+    " CTRL-X is Cut
+    vnoremap <C-X> "+x
+
+    " CTRL-C is Copy
+    vnoremap <C-C> "+y
+
+    " CTRL-V is Paste
+    " Normal, Visual, Select, Operator-pending
+    map <C-V>		"+gP
+    " Command-line - <C-R>+ is Insert the contents of the clipboard
+    cmap <C-V>		<C-R>+
+endif
 
 " Make shift-insert work like in Xterm
 map <S-Insert> <MiddleMouse>
