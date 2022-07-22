@@ -1,0 +1,15 @@
+[submodule "pack/capnregex/start/vim-rails"]
+	path = pack/capnregex/start/vim-rails
+	url = git@github.com:tpope/vim-rails.git
+[submodule "pack/capnregex/start/vim-bundler"]
+	path = pack/capnregex/start/vim-bundler
+	url = git@github.com:tpope/vim-bundler.git
+[submodule "pack/capnregex/start/vim-rvm"]
+	path = pack/capnregex/start/vim-rvm
+	url = git@github.com:tpope/vim-rvm.git
+[submodule "pack/capnregex/start/vim-dispatch"]
+	path = pack/capnregex/start/vim-dispatch
+	url = git@github.com:tpope/vim-dispatch.git
+[submodule "pack/capnregex/start/vim-sleuth"]
+	path = pack/capnregex/start/vim-sleuth
+	url = git@github.com:tpope/vim-sleuth.git
