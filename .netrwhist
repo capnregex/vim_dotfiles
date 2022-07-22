@@ -1,7 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/srv/chef/cookbooks/box/.vagrant'
-let g:netrw_dirhist_2='/srv/chef/cookbooks/box/test/integration/mssql'
-let g:netrw_dirhist_3='/home/rob/install'
-let g:netrw_dirhist_4='/home/rob/install/nodejs'
-let g:netrw_dirhist_5='/home/rob/install'
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/usr/share/vim'

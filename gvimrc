@@ -14,6 +14,11 @@ set softtabstop=2
 set autoindent
 set smartindent
 
+" Source a global configuration file if available
+if filereadable("/etc/vim/gvimrc.local")
+  source /etc/vim/gvimrc.local
+endif
+
 " Common application keybindings
 if has("clipboard")
     " CTRL-X is Cut
@@ -46,12 +51,6 @@ if version >= 500
 
   " Switch on search pattern highlighting.
   set hlsearch
-
-  " For Win32 version, have "K" lookup the keyword in a help file
-  "if has("win32")
-  "  let winhelpfile='windows.hlp'
-  "  map K :execute "!start winhlp32 -k <cword> " . winhelpfile <CR>
-  "endif
 
   " Set nice colors
   " background for normal text is light grey
