@@ -5,7 +5,7 @@
 " set guifont=-misc-fixed-medium-r-normal--14-130-75-75-c-70-iso8859-1
 " set guifont=DejaVu\ Sans\ Mono\ 14
 " set guifont=Liberation\ Mono\ 14
-set guifont=Ubuntu\ Mono\ 14
+set guifont=Monospace\ 14
 set ch=2		" Make command line two lines high
 set mousehide		" Hide the mouse when typing text
 set expandtab
