@@ -45,7 +45,6 @@ git submodule update --init --recursive
 | [vim-bundler](https://github.com/tpope/vim-bundler) | Bundler integration |
 | [vim-dispatch](https://github.com/tpope/vim-dispatch) | Async `:Make` / compilers |
 | [vim-sleuth](https://github.com/tpope/vim-sleuth) | Heuristic indent detection |
-| [vim-rvm](https://github.com/tpope/vim-rvm) | RVM integration (no-op without RVM; mise users can ignore) |
 
 Ruby/git syntax and filetype plugins come from **Vim’s runtime** (9.x), not vendored copies.
 

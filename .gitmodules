@@ -10,6 +10,3 @@
 [submodule "pack/tpope/start/vim-sleuth"]
 	path = pack/tpope/start/vim-sleuth
 	url = git@github.com:tpope/vim-sleuth.git
-[submodule "pack/tpope/start/vim-rvm"]
-	path = pack/tpope/start/vim-rvm
-	url = git@github.com:tpope/vim-rvm.git
