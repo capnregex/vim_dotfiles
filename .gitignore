@@ -1,3 +1,11 @@
-# ignore vim artifacts
+# Vim artifacts
 *~
 .*.swp
+.*.swo
+Session.vim
+.netrwhist
+.viminfo
+
+# Local overrides (machine-specific; not shared)
+vimrc.local
+gvimrc.local

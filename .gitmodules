@@ -1,0 +1,15 @@
+[submodule "pack/tpope/start/vim-rails"]
+	path = pack/tpope/start/vim-rails
+	url = git@github.com:tpope/vim-rails.git
+[submodule "pack/tpope/start/vim-bundler"]
+	path = pack/tpope/start/vim-bundler
+	url = git@github.com:tpope/vim-bundler.git
+[submodule "pack/tpope/start/vim-dispatch"]
+	path = pack/tpope/start/vim-dispatch
+	url = git@github.com:tpope/vim-dispatch.git
+[submodule "pack/tpope/start/vim-sleuth"]
+	path = pack/tpope/start/vim-sleuth
+	url = git@github.com:tpope/vim-sleuth.git
+[submodule "pack/tpope/start/vim-rvm"]
+	path = pack/tpope/start/vim-rvm
+	url = git@github.com:tpope/vim-rvm.git
