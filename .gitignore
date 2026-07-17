@@ -2,9 +2,13 @@
 *~
 .*.swp
 .*.swo
+.*.swn
 Session.vim
 .netrwhist
 .viminfo
+
+# Persistent undo (created at runtime under ~/.vim/undo)
+undo/
 
 # Local overrides (machine-specific; not shared)
 vimrc.local

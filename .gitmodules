@@ -10,3 +10,24 @@
 [submodule "pack/tpope/start/vim-sleuth"]
 	path = pack/tpope/start/vim-sleuth
 	url = git@github.com:tpope/vim-sleuth.git
+[submodule "pack/junegunn/start/fzf"]
+	path = pack/junegunn/start/fzf
+	url = git@github.com:junegunn/fzf.git
+[submodule "pack/junegunn/start/fzf.vim"]
+	path = pack/junegunn/start/fzf.vim
+	url = git@github.com:junegunn/fzf.vim.git
+[submodule "pack/tpope/start/vim-fugitive"]
+	path = pack/tpope/start/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule "pack/tpope/start/vim-surround"]
+	path = pack/tpope/start/vim-surround
+	url = git@github.com:tpope/vim-surround.git
+[submodule "pack/tpope/start/vim-commentary"]
+	path = pack/tpope/start/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
+[submodule "pack/tpope/start/vim-repeat"]
+	path = pack/tpope/start/vim-repeat
+	url = git@github.com:tpope/vim-repeat.git
+[submodule "pack/tpope/start/vim-endwise"]
+	path = pack/tpope/start/vim-endwise
+	url = git@github.com:tpope/vim-endwise.git
